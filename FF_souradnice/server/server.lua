@@ -71,7 +71,7 @@ RegisterCommand("coo1", function(source, args, rawCommand) --basic cmd
 	if source ~= 0 then
 		local xPlayer = ESX.GetPlayerFromId(source)
 		if havePermission(xPlayer) then
-			TriggerClientEvent('FF_souradky', source)
+			TriggerClientEvent('FF_souradky1', source)
 		end
 	end
 end, false)
